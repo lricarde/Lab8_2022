@@ -1,0 +1,87 @@
+﻿  Lab8_2022.cpp
+  The contents of <any> are available only with C++17 or later.
+C:\Users\leydi\Downloads\Lab8_2022\packages\SFPhysics.2.0.1\build\native\include\SFPhysics\BoundsCollisionResult.h(9,2): warning C4099: 'sfp::BoundsCollisionResult': type name first seen using 'class' now seen using 'struct'
+C:\Users\leydi\Downloads\Lab8_2022\packages\SFPhysics.2.0.1\build\native\include\SFPhysics\BoundsCollisionResult.h(8): message : see declaration of 'sfp::BoundsCollisionResult'
+C:\Users\leydi\Downloads\Lab8_2022\Lab8_2022.cpp(13,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\leydi\Downloads\Lab8_2022\Lab8_2022.cpp(109,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\type_traits(1558,67): warning C4244: 'argument': conversion from '_Ty' to 'unsigned int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(663): message : see reference to function template instantiation 'void std::invoke<_Callable&,_Ty,>(sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>&,_Ty1 &&) noexcept(false)' being compiled
+          with
+          [
+              _Callable=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>,
+              _Ty=float,
+              _Ty1=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(830): message : see reference to function template instantiation '_Rx std::_Invoker_ret<_Rx>::_Call<_Callable&,_Ty>(_Fx,_Ty &&) noexcept(false)' being compiled
+          with
+          [
+              _Rx=void,
+              _Callable=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>,
+              _Ty=float,
+              _Fx=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5> &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(831): message : see reference to function template instantiation '_Rx std::_Invoker_ret<_Rx>::_Call<_Callable&,_Ty>(_Fx,_Ty &&) noexcept(false)' being compiled
+          with
+          [
+              _Rx=void,
+              _Callable=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>,
+              _Ty=float,
+              _Fx=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5> &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(830): message : while compiling class template member function '_Rx std::_Func_impl_no_alloc<sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>,_Rx,float>::_Do_call(float &&)'
+          with
+          [
+              _Rx=void
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(728): message : see reference to class template instantiation 'std::_Func_impl_no_alloc<sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>,_Ret,float>' being compiled
+          with
+          [
+              _Ret=void
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(920): message : see reference to variable template 'const bool _Is_large<std::_Func_impl_no_alloc<`sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>'::`2'::<lambda_5>,void,float> >' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(1051): message : see reference to function template instantiation 'void std::_Func_class<_Ret,float>::_Reset<_Ty>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=void,
+              _Ty=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>,
+              _Fx=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(1051): message : see reference to function template instantiation 'void std::_Func_class<_Ret,float>::_Reset<_Ty>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=void,
+              _Ty=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>,
+              _Fx=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(1106): message : see reference to function template instantiation 'std::function<void (float)>::function<sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>,0>(_Fx &&)' being compiled
+          with
+          [
+              _Fx=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(1106): message : see reference to function template instantiation 'std::function<void (float)>::function<sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>,0>(_Fx &&)' being compiled
+          with
+          [
+              _Fx=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>
+          ]
+C:\Users\leydi\Downloads\Lab8_2022\packages\SFPhysics.2.0.1\build\native\include\SFPhysics\PhysicsShapeT.h(57): message : see reference to function template instantiation 'std::function<void (float)> &std::function<void (float)>::operator =<sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>,0>(_Fx &&)' being compiled
+          with
+          [
+              _Fx=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>
+          ]
+C:\Users\leydi\Downloads\Lab8_2022\packages\SFPhysics.2.0.1\build\native\include\SFPhysics\PhysicsShapeT.h(53): message : see reference to function template instantiation 'std::function<void (float)> &std::function<void (float)>::operator =<sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>,0>(_Fx &&)' being compiled
+          with
+          [
+              _Fx=sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::{ctor}::<lambda_5>
+          ]
+C:\Users\leydi\Downloads\Lab8_2022\packages\SFPhysics.2.0.1\build\native\include\SFPhysics\PhysicsShapeT.h(44): message : while compiling class template member function 'sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::PhysicsShapeT(void)'
+C:\Users\leydi\Downloads\Lab8_2022\packages\SFPhysics.2.0.1\build\native\include\SFPhysics\PhysicsSprite.h(12): message : see reference to function template instantiation 'sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>::PhysicsShapeT(void)' being compiled
+C:\Users\leydi\Downloads\Lab8_2022\packages\SFPhysics.2.0.1\build\native\include\SFPhysics\PhysicsSprite.h(9): message : see reference to class template instantiation 'sfp::PhysicsShapeT<sfp::CenteredSprite,sfp::AABB>' being compiled
+  Lab8_2022.vcxproj -> C:\Users\leydi\Downloads\Lab8_2022\x64\Debug\Lab8_2022.exe
